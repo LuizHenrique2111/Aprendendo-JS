@@ -1,5 +1,13 @@
-const nav = document.querySelector("nav");
-const produtos = document.querySelector(".produtos a");
+let total = 0;
 
-console.log(nav);
-console.log(produtos);
+const compras = 67.9;
+const imposto = 8.8;
+
+total = compras + imposto;
+
+const dobro = total * 2;
+const desconto = total - 15;
+
+console.log(total);
+console.log(dobro);
+console.log(desconto);
