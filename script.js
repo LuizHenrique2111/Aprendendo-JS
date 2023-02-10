@@ -1,11 +1,5 @@
-const nome = "Jose";
+const nav = document.querySelector("nav");
+const produtos = document.querySelector(".produtos a");
 
-let idade = 15;
-
-console.log(nome, "tem", idade, "anos de idade");
-
-idade = 16;
-
-console.log("Sua nova idade é:", idade);
-
-console.log(1 + 1);
+console.log(nav);
+console.log(produtos);
