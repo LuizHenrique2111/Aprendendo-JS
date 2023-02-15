@@ -1,13 +1,22 @@
-let total = 0;
+const nome = "1984";
+const ano = 1949;
+const autor = "George Orwell";
 
-const compras = 67.9;
-const imposto = 8.8;
+const livro = {
+  nome: "A Psicologia Financeira",
+  ano: 2021,
+  autor: "Morgan Housel",
+};
 
-total = compras + imposto;
+const filme = {
+  nome: "Titanic",
+  ano: 1998,
+  autor: "Nathan",
+};
 
-const dobro = total * 2;
-const desconto = total - 15;
+console.log(2022 - livro.ano);
+console.log(2022 - filme.ano);
+console.log(autor.length);
 
-console.log(total);
-console.log(dobro);
-console.log(desconto);
+const decimal = 2.87;
+console.log(Number(decimal.toFixed()) + 4);
